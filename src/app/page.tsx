@@ -82,7 +82,7 @@ export default function Home() {
                 <div
                     className="absolute inset-0"
                     style={{
-                        background: "linear-gradient(135deg, rgba(0, 183, 235, 0.85) 0%, rgba(0, 0, 0, 0.6) 50%, rgba(31, 41, 55, 1) 100%)",
+                        background: "linear-gradient(135deg, rgba(0, 183, 235, 0.7) 0%, rgba(0, 0, 0, 0.55) 50%, rgba(31, 41, 55, 1) 100%)",
                         backgroundBlendMode: "multiply",
                     }}
                 />
