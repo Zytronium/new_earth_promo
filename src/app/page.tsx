@@ -103,7 +103,7 @@ export default function Home() {
 
                 {/* Hero Content */}
                 <div className="relative z-10 max-w-6xl mx-auto px-6 py-20 text-center text-white">
-                    <h1 className="text-6xl md:text-7xl font-bold mb-6 drop-shadow-lg">
+                    <h1 className="text-6xl md:text-7xl font-bold mb-6 drop-shadow-lg font-[Aquire]">
                         New Earth
                     </h1>
                     <p className="text-2xl md:text-3xl mb-12 drop-shadow-md max-w-3xl mx-auto">
