@@ -142,10 +142,10 @@ export default function Home() {
                             <button
                                 key={tab.id}
                                 onClick={() => setActiveTab(tab.id)}
-                                className={`px-6 py-3 font-semibold transition-colors ${
+                                className={`px-6 py-3 font-semibold transition-all duration-300 ${
                                     activeTab === tab.id
-                                        ? "text-cyan-400 border-b-4 border-cyan-400"
-                                        : "text-gray-300 hover:text-cyan-300"
+                                        ? "text-cyan-400 border-b-4 border-cyan-400 scale-105 shadow-lg shadow-cyan-400/50"
+                                        : "text-gray-300 hover:text-cyan-300 hover:scale-105"
                                 }`}
                             >
                                 {tab.label}
@@ -154,7 +154,7 @@ export default function Home() {
                     </div>
 
                     {/* Tab Content */}
-                    <div className="bg-gray-900 rounded-lg shadow-lg p-8 md:p-12">
+                    <div className="bg-gray-900 rounded-lg shadow-lg p-8 md:p-12 outline-1 outline-cyan-300">
                         <h2 className="text-4xl font-bold mb-6 text-white">
                             {tabContent[activeTab as keyof typeof tabContent].title}
                         </h2>
